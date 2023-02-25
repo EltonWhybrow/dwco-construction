@@ -1,8 +1,7 @@
 const purgecss = require('@fullhuman/postcss-purgecss')
 
 const purgecssConfig = purgecss({
-    content: ['./**/*.html', './node_modules/mdb-ui-kit/js/mdb.min.js'],
-    css: ['./node-modules/mdb-ui-kit/**/*.css'],
+    content: ['./**/*.html', './js/*.js']
 })
 
 module.exports = ({ env }) => ({
