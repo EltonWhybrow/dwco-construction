@@ -1,5 +1,6 @@
 // Import our custom CSS
 import '../scss/styles.scss'
+import { setupCounter } from './counter.js'
 
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap'
@@ -8,9 +9,6 @@ import * as bootstrap from 'bootstrap'
 
 
 // import Alert from 'bootstrap/js/dist/alert';
-
-
-
 
 // // or, specify which plugins you need:
 // import { Tooltip, Toast, Popover } from 'bootstrap';
@@ -82,3 +80,5 @@ window.addEventListener('scroll', () => {
         scrollTop.classList.remove('scrolled-past');
     }
 });
+
+setupCounter(document.querySelector('#counter'));
