@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="342px" height="131px" viewBox="0 0 342 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dwco-logo</title>
+    <g id="dwco-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="342" height="131"></rect>
+        <text id="DW-&amp;-CO" font-family="HiraMinProN-W6, Hiragino Mincho ProN" font-size="36" font-weight="500" letter-spacing="9.81818182" fill="#C04D4D">
+            <tspan x="50" y="87">DW &amp; CO</tspan>
+        </text>
+        <text id="DW-&amp;-CO" font-family="HiraMinProN-W6, Hiragino Mincho ProN" font-size="36" font-weight="500" letter-spacing="9.81818182" fill="#C04D4D">
+            <tspan x="51" y="87">DW &amp; CO</tspan>
+        </text>
+        <g id="Group" transform="translate(5.000000, 86.000000)">
+            <rect id="Rectangle" fill="#C04D4D" x="0" y="0" width="333" height="36"></rect>
+            <text id="-CONSTRUCTION-" font-family="HiraMinProN-W6, Hiragino Mincho ProN" font-size="23" font-weight="500" letter-spacing="8" fill="#FFFFFF">
+                <tspan x="7" y="28">-CONSTRUCTION-</tspan>
+            </text>
+        </g>
+        <polyline id="Path" stroke="#C04D4D" stroke-width="3" stroke-linecap="square" points="6 67.4511278 169.759398 9 248.562136 36.7074843 248.5 21 286.5 21 286.722702 50.1249535 336 67.4511278"></polyline>
+    </g>
+</svg>
