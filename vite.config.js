@@ -3,13 +3,16 @@ import handlebars from 'vite-plugin-handlebars';
 
 export default {
   root: path.resolve(__dirname, 'src'),
-  plugins: [handlebars({
-    partialDirectory: path.resolve(__dirname, 'partials'),
-    context: {
-      phone: '07508 029 945',
-      phoneExt: '++447508029945'
-    },
-  })],
+  plugins: [
+    handlebars({
+      partialDirectory: path.resolve(__dirname, 'src/partials'),
+      reloadOnPartialChange: true,
+      context: {
+        phone: '07508 029 945',
+        phoneExt: '++447508029945'
+      },
+    }),
+  ],
   build: {
     outDir: '../dist'
   },
