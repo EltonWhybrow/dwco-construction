@@ -37,3 +37,5 @@ scrollTop()
 // d.addEventListener('click', function () {
 //     var a = new bootstrap.Toast(f); a.show()
 // });
+
+document.getElementById("year").innerHTML = new Date().getFullYear();

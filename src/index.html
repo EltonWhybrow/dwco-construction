@@ -108,44 +108,7 @@
     </svg>
 
     <div class="container-lg">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-1">
-            <a href="/" class="col-md align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <!-- <svg class="bi me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap" />
-                </svg> -->
-                <img class="bi me-md-2 d-block" src="img/brand/dwco-logo.svg" alt="dw&co logo" width="220"
-                    height="auto">
-                <!-- <span class="fs-4">Simple header</span> -->
-            </a>
-
-            <div class="col-md d-none d-md-block ms-md-auto text-secondary text-md-end">
-                <p class="mb-0 text-primaryalt">
-                    Phone: <a class="text-decoration-none" href="tel:++447508029945">07508 029 945</a>
-                </p>
-                <p class="d-block text-primaryalt">
-                    Email: <a class="text-decoration-none"
-                        href="mailto:info@dwco-construction.co.uk">info@dwco-construction.co.uk</a>
-                </p>
-                <h4 class="d-block text-primary">
-                    Excellence in construction, from foundation to finish!
-                </h4>
-            </div>
-
-            <!-- mobile only -->
-            <div class="col-md  d-md-none ms-md-auto text-secondary text-center">
-                <p class="">
-                    <a class="btn btn-lg btn-primary" href="tel:++447508029945">Call: 07508 029
-                        945</a>
-                </p>
-                <p class="d-block">
-                    <a class="text-decoration-none"
-                        href="mailto:info@dwco-construction.co.uk">info@dwco-construction.co.uk</a>
-                </p>
-                <h4 class="d-block text-primary">
-                    Excellence in construction, from foundation to finish!
-                </h4>
-            </div>
-        </header>
+        {{> header}}
     </div>
 
 
@@ -524,31 +487,7 @@
         </div>
     </section>
 
-
-    <footer id="contact-us" class="bg-dark text-bg-dark text-center pt-5 pb-4">
-        <div class="container">
-            <div class="row justify-content-center align-content-center py-4">
-                <div class="col-md-5">
-                    <h3>Get in touch</h3>
-                    <p class="mb-0">
-                        Phone: <a class="text-decoration-none" href="tel:++447508029945">07508 029 945</a>
-                    </p>
-                    <p class="d-block">
-                        Email: <a class="text-decoration-none"
-                            href="mailto:info@dwco-construction.co.uk">info@dwco-construction.co.uk</a>
-                    </p>
-                </div>
-                <div class="col-md-3"> <img class="mx-auto d-block" src="img/brand/dwco-logo-invert.svg"
-                        alt="dw & co construction" width="220" height="auto"></div>
-            </div>
-            <div class="copyright text-center pt-5">
-                <small> Copyright © 2023 DW &amp; Co Construction.
-                    <hr class="d-md-none" />Built by <a class="btn-link text-decoration-none" href="//widesign.co.uk"
-                        target="_blank">Wide Sign</a>
-                </small>
-            </div>
-        </div>
-    </footer>
+    {{> footer}}
 
     <!-- back to top -->
     <button id="scrollTop" class="scroll-top btn btn-secondary rounded-3 position-fixed">
