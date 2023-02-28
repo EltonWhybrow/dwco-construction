@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=./",
+    "host": "npm run dev -- --host",
+    "build": "vite build --base=./ --emptyOutDir",
     "preview": "vite preview"
   },
   "devDependencies": {

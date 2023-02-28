@@ -1,7 +1,23 @@
-// Import all of Bootstrap's CSS
+//customise colors
 $primary: #c04d4d;
+// $light: #f4f4f4;
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+$custom-color-theme: (
+	"lightalt": #f4f4f4,
+	"primaryalt": #a76b6b,
+);
+
+// merge custom colors and original theme colors
+// now you can use bg-primaryalt etc..
+$theme-colors: map-merge($custom-color-theme, $theme-colors);
+
+//import bootstrap
 @import "~bootstrap/scss/bootstrap";
 
-body {
-	// background-color: $primary;
-}
+// custom styles
+@import "inc/_tabs";
+@import "inc/_scroll";
+@import "inc/_backgrounds";

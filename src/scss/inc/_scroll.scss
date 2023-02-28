@@ -1,0 +1,8 @@
+.scroll-top {
+	opacity: 0;
+	right: 20px;
+	bottom: 20px;
+	&.scrolled-past {
+		opacity: 1;
+	}
+}

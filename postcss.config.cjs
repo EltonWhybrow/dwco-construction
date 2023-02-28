@@ -1,7 +1,7 @@
 const purgecss = require('@fullhuman/postcss-purgecss')
 
 const purgecssConfig = purgecss({
-    content: ['./**/*.html', './js/*.js']
+    content: ['./**/*.html', './**/*.js']
 })
 
 module.exports = ({ env }) => ({
